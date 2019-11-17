@@ -1,0 +1,18 @@
+.blog-post-hots .list-group > .list-group-item {
+  padding: 0.5rem 0;
+}
+
+.blog-post-hots .badge {
+  margin-right: .5rem;
+}
+
+.blog-post-hots a {
+  width: 155px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.blog-post-hots .badge {
+  margin-right: 0px;
+}

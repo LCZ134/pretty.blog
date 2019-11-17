@@ -1,0 +1,18 @@
+.pretty-editor {
+  width: 100%;
+  /* border: 1px solid #ccc; */
+  padding: 1rem 0;
+  font-size: 14px;
+  border-radius: 4px;
+  text-align: left;
+  min-height: 6rem;
+}
+
+.w-e-text-container {
+  height: 7em !important;
+}
+
+.w-e-menu,
+.w-e-text-container {
+  z-index: 1 !important;
+}

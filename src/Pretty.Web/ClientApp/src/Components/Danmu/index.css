@@ -1,0 +1,45 @@
+#danmu {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.danmu-section .danmu-section {
+  width: 100%;
+  height: 100vh;
+  left: 0;
+}
+
+.danmu-section .insert-danmu-box {
+  border-radius: 4px;
+  position: absolute;
+  bottom: 12rem;
+  width: 300px;
+  left: calc(50% - 150px);
+  background: white;
+  box-shadow: 3px 3px 5px gray;
+}
+
+.danmu-section .invert_colors {
+  width: 3rem;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.danmu-section .insert-danmu-box .color-picker {
+  position: absolute;
+  width: 90px;
+  left: -100px;
+  top: -20px;
+}
+
+.danmu-section .close {
+  position: absolute;
+  right: 5rem;
+  top: 5rem;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 100;
+}

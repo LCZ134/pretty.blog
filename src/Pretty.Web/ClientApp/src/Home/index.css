@@ -1,0 +1,12 @@
+#home {
+  margin-top: 1rem;
+}
+#home .card {
+  margin: 0 0 1rem 0px;
+}
+
+@media screen and (max-width: 960px) {
+  .blog-post-hots .badge {
+    display: none;
+  }
+}

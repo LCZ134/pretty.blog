@@ -1,0 +1,50 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+header .bmd-form-group {
+  padding-top: 0;
+}
+
+header .header-right-menu {
+  display: flex !important;
+}
+
+header nav.navbar {
+  margin-bottom: 0;
+}
+
+header .drawer-header {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+header .drawer-header .avatar-img {
+  width: 5.3rem;
+  height: 5.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .drawer-header .avatar-img .material-icons {
+  position: static;
+  height: auto;
+  width: auto;
+  font-size: 2rem;
+  margin-top: auto;
+}
+
+header .drawer-header .bmd-form-group {
+  width: 100%;
+  padding: 1rem;
+}
+
+header .nav-link.active {
+  background-color: hsla(0, 0%, 100%, 0.1)!important;
+}

@@ -1,0 +1,21 @@
+#login-card-wrapper{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.1);
+  z-index: 10002;
+}
+#login-card-wrapper .login-card {
+  position: fixed;
+  top: 20%;
+  width: 380px!important;
+  min-height: 300px;
+  left: calc(50% - 190px);
+  padding: 2.5rem;
+}
+
+#login-card-wrapper .login-card .tab-space {
+  padding: 20px 0 20px;
+}

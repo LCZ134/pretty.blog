@@ -1,0 +1,9 @@
+.skeleton-line-loading {
+  background: #efefef;
+  display: inline-block;
+  height: 1rem;
+  width: 150px;
+  vertical-align: middle;
+  background: linear-gradient(90deg,#efefef,#ccc,#efefef);
+  animation: skeleton-stripes 1s linear infinite;
+}

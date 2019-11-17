@@ -1,0 +1,8 @@
+.archive-container {
+  width: 400px;
+  margin: auto;
+}
+
+.archive-container .d-flex > div {
+  flex: 1;
+}

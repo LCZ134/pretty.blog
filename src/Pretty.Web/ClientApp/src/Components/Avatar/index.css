@@ -1,0 +1,6 @@
+div.avatar-img {
+  background-size: cover;
+  background-position: 50% 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}

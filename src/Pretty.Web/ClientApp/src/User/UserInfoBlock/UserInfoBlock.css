@@ -1,0 +1,12 @@
+.user-info-block {
+  position: relative;
+}
+
+.user-info-block .user-menu {
+  position: absolute;
+  width: 100px;
+  left: -30px;
+  top: 30px;
+  padding: 1rem;
+  text-align: center;
+}

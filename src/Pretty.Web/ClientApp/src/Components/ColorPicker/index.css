@@ -1,0 +1,7 @@
+.color-picker .item {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  margin: 0.4rem;
+  border: 1px solid #ccc;
+}

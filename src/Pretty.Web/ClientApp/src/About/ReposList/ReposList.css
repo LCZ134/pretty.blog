@@ -1,0 +1,40 @@
+.repos-list > * {
+  float: left;
+}
+
+.repos-list {
+  overflow: hidden;
+}
+
+.github-repos.item {
+  width: 32%;
+  margin-right: 2%;
+}
+
+.github-repos.item:nth-child(3n) {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 900px) and (min-width: 500px) {
+  .github-repos.item {
+    width: 48% !important;
+  }
+  
+  .github-repos.item:nth-child(2n) {
+    margin-right: 0!important;
+  }
+  
+  .github-repos.item:nth-child(3n) {
+    margin-right: 2%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .github-repos.item {
+    width: 100% !important;
+  }
+
+  .github-repos.item{
+    margin-right: 0!important;
+  }
+}

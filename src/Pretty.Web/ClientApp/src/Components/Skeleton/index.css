@@ -1,0 +1,28 @@
+.skeleton-list {
+  padding: 1rem;
+}
+
+.skeleton-list .skeleton-row {
+  width: 80%;
+}
+
+.skeleton-list .skeleton-row:first-of-type {
+  width: 40%;
+}
+
+.skeleton-list .skeleton-row {
+  margin-bottom: 16px;
+  background: linear-gradient(90deg,#efefef,#ccc,#efefef);
+  background-size: 480px 480px;
+  animation: skeleton-stripes .6s linear infinite;
+  height: 1.2rem;
+}
+
+@keyframes skeleton-stripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+      background-position: 480px 0;
+  }
+}

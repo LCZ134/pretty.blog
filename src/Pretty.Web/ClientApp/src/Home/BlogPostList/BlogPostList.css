@@ -1,0 +1,17 @@
+div.col-md-8 {
+  padding: 0;
+}
+
+li.list-group-item,
+div.list-group-item {
+  margin: 0;
+  padding: 0;
+}
+
+div.card {
+  margin: 1rem 0;
+}
+
+.blog-post-list i.badge {
+  margin-left: .5rem;
+}
