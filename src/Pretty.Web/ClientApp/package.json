@@ -5,7 +5,7 @@
   "dependencies": {
     "bmap": "^1.0.1",
     "dayjs": "^1.8.16",
-    "highlight.js": "^9.15.10",
+    "highlight.js": "^10.1.2",
     "js-cookie": "^2.2.1",
     "material-kit": "^2.0.4",
     "promise": "^8.0.3",
